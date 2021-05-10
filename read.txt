@@ -1,0 +1,9 @@
+open chatbot folder in cmd
+cmd 1
+rasa run actions
+cmd 2
+rasa run -m models --enable-api --cors "*" --debug
+
+open website folder in cmd
+cmd 3 
+py manage.py runserver
